@@ -2,6 +2,11 @@
 ## is an expensive operation it does it only once and returns the cached
 ## inverse when needed
 
+## You can use the functions as follows
+## s <- makeCacheMatrix(m)
+## t <- cacheSolve(s)
+## t will have a cached copy of s
+
 # Takes a matrix as an argument and caches the matrix locally
 # exposes setter and getter for the matrix and the inverse of the matrix (solv)
 
